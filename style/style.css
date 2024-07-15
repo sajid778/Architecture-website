@@ -228,6 +228,24 @@ align-items: center;
   filter: grayscale(100%);
 }
 
+
+footer{
+  max-width: 1440px;
+  height: 100px;
+  background-color: rgba(255, 244, 231, 1);
+  margin: 0 auto;
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer p{
+  font-size: 1.25rem;
+  
+}
+
 /* responsive media query */
 
 @media screen and (max-width:576px) {
@@ -266,8 +284,13 @@ align-items: center;
 /* medium size device */
 
 @media screen and (min-width:576px) and (max-width:992px) {
-  .teams{
+  .teams, .features{
     flex-direction: column;
+  }
+
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
   }
   
   .our-features{
